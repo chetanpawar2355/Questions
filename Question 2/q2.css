@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.navigation-bar {
+    display: flex;
+    background-color: darkturquoise;
+    margin: 5px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px 3px darkgoldenrod;
+}
+
+.vivologo {
+    padding: 0px 900px 0px 50px;
+    filter: contrast(100);
+}
+
+.navigation-items {
+    margin: 50px 20px 40px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navlink {
+    text-decoration: none;
+    color: black;
+}
+
+.titleline {
+    text-align: center;
+    padding: 30px;
+    font-variant: small-caps;
+    font-size: 35px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+
+.main-image-items {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.new-arrival-title,
+.sign-up-title {
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.new-arrival-items {
+    display: flex;
+    margin: 10px 425px 50px 425px;
+}
+
+.new-arrival-item {
+    cursor: pointer;
+    margin: 10px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 3px darkcyan;
+}
+
+.sign-up-title {
+    margin: 0px 0px 15px 0px;
+}
+
+.sign-up-section {
+    margin: 15px 435px 50px 435px;
+    color: black;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 0, 0, 0.769);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 5px rgb(12, 12, 184);
+}
+
+.nameff,
+.emailff {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#namefield,
+#emailfield {
+    margin: 5px 0px;
+    padding: 5px 195px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.checkboxff {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#checkboxfield,
+.checkk {
+    cursor: pointer;
+}
+
+.submit-btn {
+    margin: 25px 0px;
+    padding: 0px 260px;
+
+}
+
+#btn {
+    font-weight: bolder;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: rgb(51, 197, 255);
+    box-shadow: 0px 0px 5px 2px darkblue;
+    cursor: pointer;
+}

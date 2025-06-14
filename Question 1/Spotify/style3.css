@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.maindiv {
+    background-color: black;
+    overflow-y: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+}
+
+.spotifyimage {
+    width: 45px;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+.homeImage {
+    width: 45px;
+    position: relative;
+    top: 17px;
+    left: 480px;
+}
+
+.play {
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 500px;
+    border-radius: 28px;
+    background-color: rgb(29, 27, 27);
+    padding: 15px 200px 15px 50px;
+
+}
+
+.play:hover {
+    --bgcolor: rgb(75, 61, 61);
+    background-color: var(--bgcolor);
+}
+
+.section {
+    display: flex;
+    width: 99%;
+    height: 90vh;
+    color: white;
+}
+
+.sec1 {
+    border-radius: 5px;
+    margin: 5px;
+    width: 6%;
+    height: 98%;
+    background-color: rgb(23, 22, 22);
+    overflow: hidden;
+}
+
+.aside {
+    position: relative;
+    list-style-type: none;
+}
+
+.arijit,
+.SS,
+.image3,
+.image4,
+.image5,
+.plus {
+    padding: 5px 0px;
+    position: relative;
+    top: 15px;
+    left: 13px;
+}
+
+.plus {
+    filter: invert(1);
+}
+
+.sec2 {
+    border-radius: 5px;
+    margin: 5px 3px;
+    width: 65%;
+    height: 98%;
+    background-color: rgb(29, 27, 27);
+    overflow: hidden;
+}
+
+:root {
+    --bgcolor: rgb(58, 49, 49);
+}
+
+.amp {
+    display: flex;
+    list-style-type: none;
+    margin: 40px 0px 0px 30px;
+}
+
+.amp1,
+.amp2,
+.amp3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-color: var(--bgcolor, black);
+    border-radius: 18px;
+    padding: 6px 10px;
+    margin-right: 10px;
+}
+
+.amp1:hover,
+.amp2:hover,
+.amp3:hover {
+    --bgcolor: rgb(75, 61, 61);
+    background-color: var(--bgcolor);
+}
+
+.list1 li {
+    display: inline-flex;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--bgcolor);
+    border-radius: 4px;
+    position: relative;
+    top: 25px;
+    align-items: center;
+    left: 22px;
+    margin-left: 4px;
+    margin-bottom: 5px;
+    width: 23%;
+    overflow: hidden;
+}
+
+.list1 li:hover {
+    --bgcolor: rgb(75, 61, 61);
+    background-color: var(--bgcolor);
+}
+
+.madefor {
+    position: relative;
+    top: 55px;
+    left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.madeforlist li {
+    display: inline-flex;
+    position: relative;
+    margin-right: 10px;
+    top: 75px;
+    left: 27px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.madeforlistname li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-flex;
+    text-align: left;
+    overflow: hidden;
+    list-style-type: none;
+    position: relative;
+    margin: 5px 11px 0px 0px;
+    width: 20vh;
+    height: 10vh;
+    padding: 10px;
+    top: 75px;
+    left: 27px;
+}
+
+
+.sec3 {
+    border-radius: 5px;
+    margin: 5px;
+    width: 30%;
+    height: 98%;
+    background-color: rgb(23, 22, 22);
+    overflow: hidden;
+}
+
+.sec3name {
+    padding: 15px;
+    list-style-type: none;
+    display: flex;
+    position: relative;
+}
+
+.sec3name1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+
+.sec3name2 {
+    position: absolute;
+    top: 23px;
+    left: 380px;
+}
+
+.sec3name3 {
+    position: absolute;
+    top: 23px;
+    left: 410px;
+}
+
+.songimage {
+    width: 90%;
+    height: 70%;
+    position: relative;
+    top: 40px;
+    left: 22.5px;
+    border-radius: 5px;
+}
+
+.nameplate,
+.singers {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}

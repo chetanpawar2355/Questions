@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-size: cover;
+}
+
+#navsection {
+    display: flex;
+    background-color: rgb(8, 42, 42);
+    margin: 15px;
+    padding: 25px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow: 0px 0px 10px aqua;
+}
+#navsection:hover{
+    background-color: aqua;
+    box-shadow: 0px 0px 10px blue;
+}
+
+.navclass {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0px 1px;
+    padding: 0px 60px 0px 60px;
+}
+
+.navclass:hover {
+    text-decoration: underline yellow;
+    color: black;
+}
+
+#firstsection {
+    border-radius: 6px;
+    color: white;
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(8, 42, 42);
+    height: 45vh;
+    overflow: hidden;
+}
+
+.heading1,
+.heading2,
+.heading3,
+.heading4 {
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px blue;
+}
+
+.heading1:hover,
+.heading2:hover,
+.heading3:hover,
+.heading4:hover {
+    box-shadow: 0px 0px 10px pink;
+}
+
+#imagesection {
+    border-radius: 100px;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    margin: 40px 20px 10px 50px;
+    position: relative;
+    box-shadow: 0px 0px 10px skyblue;
+}
+
+.gridfirstsection {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#namesection,
+#mySelf {
+    margin: 100px 10px 10px 10px;
+}
+
+.projects:hover,
+#imagesection:hover,
+.certificates:hover {
+    box-shadow: 0px 0px 10px blue;
+}
+
+#secondsection {
+    border-radius: 6px;
+    color: white;
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(8, 42, 42);
+    height: 50vh;
+    overflow: hidden;
+}
+
+.flexsecondsection {
+    display: flex;
+    margin: 20px 290px;
+}
+
+.certificates {
+    border-radius: 6px;
+    margin: 20px;
+    height: 200px;
+    width: 250px;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 10px skyblue;
+    overflow: hidden;
+}
+
+#thirdsection {
+    border-radius: 6px;
+    color: white;
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(8, 42, 42);
+    height: 50vh;
+    overflow: hidden;
+}
+
+.flexthirdsection {
+    display: flex;
+    margin: 20px 350px;
+}
+
+.projects {
+    border-radius: 6px;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 10px skyblue;
+    overflow: hidden;
+}
+
+#fourthsection {
+    border-radius: 6px;
+    color: white;
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(8, 42, 42);
+    height: 25vh;
+    overflow: hidden;
+}
+
+.flexfourthsection {
+    display: inline-flex;
+    margin: 10px 520px;
+}
+
+.images {
+    margin: 20px;
+}
+
+.images:hover {
+    box-shadow: 0px 0px 10px skyblue;
+    background-color: aqua;
+    border-radius: 6px;
+}
+
+#firstsection,
+#secondsection,
+#thirdsection,
+#fourthsection {
+    box-shadow: 0px 0px 10px orange;
+}
