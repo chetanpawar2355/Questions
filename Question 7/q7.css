@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    color: black;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(11, 3, 21);
+    color: white;
+}
+
+.about-section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    border: 1px solid wheat;
+}
+
+.history {
+    background-color: rgb(162, 227, 252);
+    box-shadow: 0px 0px 5px 0px rgb(243, 215, 215);
+}
+
+.history:hover,
+.mission:hover,
+.team:hover {
+    transform: translateX(30px);
+    transition: transform 0.3s;
+    box-shadow: 0px 0px 5px 0px rgb(248, 140, 140);
+}
+
+.mission {
+    background-color: rgb(243, 228, 200);
+    box-shadow: 0px 0px 5px 0px rgb(243, 215, 215);
+}
+
+.team {
+    background-color: paleturquoise;
+    box-shadow: 0px 0px 5px 0px rgb(243, 215, 215);
+
+}
+
+.about-section h2 {
+    margin-bottom: 10px;
+    color: rgb(6, 6, 48);
+}
+
+footer {
+    margin-top: 40px;
+}
